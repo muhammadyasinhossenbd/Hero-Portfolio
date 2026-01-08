@@ -60,7 +60,8 @@ header {
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 15px, bottom right;
+    background-size: 90px, auto;
 
 }
 
@@ -137,6 +138,18 @@ nav a {
     max-width: 585px;
     max-height: 676px;
     vertical-align: middle;
+}
+
+.btn-white {
+    background-color: #FFF8F3;
+    border: 1px solid;
+    border-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    cursor: pointer;
 }
 
 #about,
@@ -307,4 +320,11 @@ footer .footer-container {
     border: none;
     border-radius: 5px;
     color: #757575;
+}
+
+.footer-container form .hudai [placeholder] {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: lighter;
+
 }
